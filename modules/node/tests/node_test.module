@@ -126,8 +126,8 @@ function node_test_node_grants_alter(&$grants, $account, $op) {
  */
 function node_test_node_presave($node) {
   if ($node->title == 'testing_node_presave') {
-    // Sun, 19 Nov 1978 05:00:00 GMT
-    $node->created = 280299600;
+    // Sun, 11 Mar 1984 12:00:00 GMT
+    $node->created = 447854400;
     // Drupal 1.0 release.
     $node->changed = 979534800;
   }
