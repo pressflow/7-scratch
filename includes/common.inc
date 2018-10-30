@@ -4894,6 +4894,7 @@ function _drupal_bootstrap_full() {
   require_once DRUPAL_ROOT . '/includes/ajax.inc';
   require_once DRUPAL_ROOT . '/includes/token.inc';
   require_once DRUPAL_ROOT . '/includes/errors.inc';
+  require_once DRUPAL_ROOT . '/includes/edge.inc';
 
   // Detect string handling method
   unicode_check();
